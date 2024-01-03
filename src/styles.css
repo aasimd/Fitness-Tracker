@@ -1,0 +1,63 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+  padding: none;
+}
+* {
+  box-sizing: border-box;
+  list-style: none;
+  text-decoration: none;
+}
+body {
+  margin: 0;
+  padding: 0;
+}
+ul {
+  display: block;
+  list-style-type: disc;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  padding-inline-start: 0px;
+}
+
+form {
+  border: 2px solid slateblue;
+  background-color: rgb(235, 233, 246);
+  width: fit-content;
+  margin: auto;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  text-align: left;
+  border-radius: 10px;
+}
+form input[type="submit"] {
+  background-color: slateblue;
+  color: white;
+  padding: 10px 30px;
+  font-size: 1rem;
+  border: none;
+  border-radius: 10px;
+}
+form input,
+form textarea,
+select#status {
+  background-color: white;
+  color: slateblue;
+  padding: 10px;
+  font-size: 1rem;
+  border: 1px solid slateblue;
+  border-radius: 10px;
+}
+form label {
+  color: slateblue;
+  font-size: 1.1rem;
+  font-weight: 600;
+}
+
+h1 {
+  color: slateblue;
+}

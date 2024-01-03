@@ -1,0 +1,21 @@
+.dashboard h2 {
+  color: slateblue;
+  font-size: 2rem;
+}
+.dashboard {
+  height: 80vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  /* background-color: lightgray; */
+}
+.dashboard b {
+  color: slateblue;
+  font-size: 1.3rem;
+}
+.dashboard p {
+  color: #777777;
+  font-weight: 500;
+  font-size: 1.2rem;
+}

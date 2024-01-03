@@ -1,0 +1,54 @@
+/* nav {
+  width: 100%;
+} */
+.nav-bar {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+}
+.nav-bar ul {
+  display: flex;
+  padding: 20px 5px 0 0;
+}
+.nav-bar ul li {
+  padding: 5px;
+}
+nav {
+  background-color: skyblue;
+}
+.nav-bar h2 {
+  padding: 10px 0 0 10px;
+}
+.cards-list ul {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1.5rem;
+  padding: 10px;
+  justify-content: space-around;
+}
+.cards-list ul li {
+  border: 2px solid cadetblue;
+  padding: 10px;
+  border-radius: 20px;
+  color: rgb(64, 111, 129);
+  background-color: rgb(247, 253, 255);
+  text-align: left;
+  display: flex;
+}
+.cards-list ul li button {
+  color: crimson;
+  padding: 10px;
+  font-size: 1rem;
+  font-weight: 600;
+  border: 1px solid crimson;
+  background-color: white;
+  border-radius: 10px;
+  transition: 0.3s;
+}
+.cards-list ul li button:hover {
+  background-color: red;
+  color: white;
+}
+.cards-list h2 {
+  color: rgb(47, 67, 68);
+}
